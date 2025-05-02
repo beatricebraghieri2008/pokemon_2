@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 dataframe_pokemon = pd.read_csv('pokemon.csv')
-punti_tot = 100
+punti_totali = 100
 
 probabilità = {
     'Comune': 0.7,
